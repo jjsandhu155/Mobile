@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1082044412295",
+    "project_id": "authentication-f7dca",
+    "storage_bucket": "authentication-f7dca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1082044412295:android:ae60d864172ca3d1476322",
+        "android_client_info": {
+          "package_name": "com.sandhujj.real_auth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1082044412295-7qqov2n73fdjve7b6171g28l4deljbk0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsfOs7gtUzYlVpW87YDeP7D6yi9Gkf4Pk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1082044412295-7qqov2n73fdjve7b6171g28l4deljbk0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

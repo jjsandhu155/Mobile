@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/sky">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Previous Screen!"
+        android:onClick="onClick2"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/button5a"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next Screen!"
+        android:onClick="onClick"
+        android:id="@+id/button2"/>
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintGuide_percent=".50"
+        android:orientation="vertical"
+        android:id="@+id/vert"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_mr_tra"
+        android:textColor="@color/purple"
+        app:layout_constraintBottom_toTopOf="@id/clickmob"
+        app:layout_constraintLeft_toRightOf="@id/vert" />
+
+    <Button
+        android:id="@+id/clickmob"
+        android:layout_width="215dp"
+        android:layout_height="wrap_content"
+        android:background="@color/purple"
+        android:text="@string/click_me"
+        app:layout_constraintBottom_toBottomOf="@id/hor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="@id/vert"
+        app:layout_constraintStart_toStartOf="@+id/vert"
+        app:layout_constraintTop_toTopOf="parent" />
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintGuide_percent=".50"
+        android:orientation="horizontal"
+        android:id="@+id/hor"/>
+    <View
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:id="@+id/view1"
+        android:background="@color/purple"
+        app:layout_constraintLeft_toRightOf="@id/vert"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+    <View
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:background="@color/purple"
+        app:layout_constraintLeft_toRightOf="@id/vert"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/hor"
+        />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

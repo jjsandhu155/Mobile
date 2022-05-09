@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Lab02</string>
+    <string name="enter_name_here">Enter Name Here!</string>
+    <string name="get_a_new_planet">GET A NEW PLANET:</string>
+    <string name="your_name">Your Name</string>
+    <string name="submit_above_name">Submit Above Name</string>
+    <string name="new_planet">New Planet!</string>
+    <string name="name">Your Name</string>
+    <string name="submit_your_name">Add Name to Mobile Roster</string>
+    <string-array name="saideep">
+        <item>Shreyas</item>
+        <item>Nitin</item>
+        <item>JJ</item>
+        <item>Peal</item>
+        <item>Ani</item>
+        <item>Pulak</item>
+        <item>Derek</item>
+    </string-array>
+</resources>

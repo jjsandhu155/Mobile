@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1049647310196",
+    "project_id": "chatchatchat-68269",
+    "storage_bucket": "chatchatchat-68269.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1049647310196:android:593d1fb0260fe85b983821",
+        "android_client_info": {
+          "package_name": "com.sandhujj.chatroom_v5"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1049647310196-rrft5ftcooih7b8osbq2v51h6p0b2aca.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDaGQwiqTIWfIJg0j1_JzsbanIWG3eSVGM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1049647310196-rrft5ftcooih7b8osbq2v51h6p0b2aca.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
